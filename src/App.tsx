@@ -52,7 +52,7 @@ function App() {
             <div className="bg-transparent rounded-lg p-4 w-full mb-4">
               <div className="flex justify-between items-center mb-4">
                 <div className="flex items-center">
-                  <img src="/images/tu_ruta_moneda_amarilla.png" alt="Coin" className="w-8 h-8 mr-2" />
+                  <img src="public/images/tu_ruta_moneda_amarilla.png" alt="Coin" className="w-8 h-8 mr-2" />
                   <span className="text-3xl font-bold text-white">{coins.toFixed(2)}</span>
                 </div>
               </div>
