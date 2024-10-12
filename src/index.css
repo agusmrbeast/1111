@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  overflow: hidden;
+}
+
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-area {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.navbar {
+  margin-top: auto;
+}
+
+/* Nivel 1: De gris a azul claro */
+.background-nivel-1 {
+  background: linear-gradient(to right, #B0BEC5, #81D4FA);
+}
+
+/* Nivel 2: De azul claro a verde */
+.background-nivel-2 {
+  background: linear-gradient(to right, #81D4FA, #4CAF50);
+}
+
+/* Nivel 3: De verde a amarillo */
+.background-nivel-3 {
+  background: linear-gradient(to right, #4CAF50, #FFEB3B);
+}
+
+/* Nivel 4: De amarillo a naranja */
+.background-nivel-4 {
+  background: linear-gradient(to right, #FFEB3B, #FF9800);
+}
+
+/* Nivel 5: De naranja a dorado */
+.background-nivel-5 {
+  background: linear-gradient(to right, #FF9800, #FFD700);
+}
